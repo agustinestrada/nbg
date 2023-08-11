@@ -15,7 +15,7 @@ li{
 
 li:hover{
     background-color: rgba(30, 30, 30, 0.509);
-    color: rgb(6, 138, 19);
+    color: rgb(0, 164, 16);
     padding: 2%;
 }
 
@@ -32,6 +32,7 @@ h1{
 section{
     width: 100%;
     height: 100vh;
+    border: 2px solid rgba(255, 0, 0, 0);
 }
 
 header{
@@ -65,7 +66,7 @@ ul{
 
 section#landing{
     background-image: url('../resources/img/Screenshot\ 2023-08-11\ at\ 00-47-00\ Nacho\ Brea\ Nacho\ Brea\ Golf.png');
-    background-size: 100% auto
+    background-size: 100% auto  
 }
 
 section#tours{
@@ -74,11 +75,71 @@ section#tours{
 }
 
 section#clases{
-    background-image: url('../resources/img/clases.jpg');
-    background-size: auto
+   background-image: url('../resources/img/clases.jpg');
+    background-size: auto;
+    height: 100vh;
 }
 
 section#contacto{
-    background-image: url('../resources/img/Screenshot22BW.jpg');
-    background-size: cover
+   background-image: url('../resources/img/Screenshot22BW.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+div#form{
+    width: 50%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15% ;
+}
+
+.etiqueta-formulario{
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:whitesmoke
+}
+
+input{
+    width: 60%;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+    border: none;
+    border-radius: 2px;
+}
+
+::placeholder{
+    color: black;
+}
+
+textarea{
+    width: 60%;
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+    border: none;
+    border-radius: 2px;
+}
+
+div.botones{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: em;
+}
+
+button{
+    font-size: 1.3em;
+    padding: 1%;
+    border: none;
+    border-radius: 2px;
 }

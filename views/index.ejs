@@ -40,11 +40,46 @@
 
 
         <section id="contacto">
-            <h2>contacto</h2>
+            
+            <div id="form">    
+                <form action="/exito" method="POST" class="main-formulario"> 
+                
+                    <div class="etiqueta-formulario">
+                        <input type="nombre" name="nombre"  placeholder="nombre" id="nombre" required>
+                    </div>
+
+                    <div class="etiqueta-formulario">
+                        <input type="apellido" name="apellido" placeholder="apellido" id="apellido" required>
+                    </div>
+                    
+                    <div class="etiqueta-formulario">
+                        <input type="email" name="email" placeholder="email" id="email" required>
+                    </div>
+
+                    <div class="etiqueta-formulario">
+                        <textarea name="comentario" id="comentario" placeholder="Dejame tu comentario" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                    <div class="botones">
+
+                        <button type="submit" class="boton">
+                            Enviar
+                        </button>
+
+                        <button type="reset" class="boton">
+                            Borrar
+                        </button>
+                    </div>
+
+                </form>               
+            </div>    
+
+        
+            <script src="/js/contact.js"></script>
         </section>
 
         <footer>
-            
+
         </footer>
 
     </main>
